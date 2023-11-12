@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.Scanner;
 
 public class ExceptionHandling  {
@@ -51,6 +52,13 @@ catch(ArrayIndexOutOfBoundsException e){
     System.out.println("Index is Out of the Bound:");
     System.out.println("Enter Correct Index Number.");
 }
+
+catch(Exception e){
+ System.out.println("Some exception ");
+   
+}
+
+
 
 
 
